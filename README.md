@@ -37,6 +37,20 @@ The code is organized into a single Python file named "interaction.py".
 2. Install the required libraries: `networkx`, `matplotlib`.
 3. Run the Python script: `python interaction.py`
 4. Follow the prompts to interact with the program and analyze your protein interaction network.
+### Exemple of Usage 
+* i chose the exeple of 14 interaction
+```bash
+Entrer the numbre of interaction 14
+Enter the first protein : p1
+Enter the second protein : p8
+The distance between p1 and p8 is: 2
+Average distance (R) of the network: 1.8888888888888888
+Is the network a small-world network? True
+Enter the node for which you wish to check the degree: p3
+Degree of node p3: 4
+```
+![netwok_plot](Figure.png)
+
 
 ## Additional Notes
 
